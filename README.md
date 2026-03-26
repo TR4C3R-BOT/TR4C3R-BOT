@@ -1,99 +1,17 @@
-# TR4C3R Props Creator
+Our Discord server is centered around a powerful all-in-one bot, built specifically for the new Embed V2 system.
 
-Ein professionelles Script zum Platzieren, Bearbeiten und Verwalten von Custom Props auf deinem FiveM Server.
+With our bot, you can easily create high-quality embeds using an integrated live preview feature, so you instantly see how your messages will look — no more trial and error.
 
-## Features
+The bot combines features you would normally find in large bots into one complete solution:
 
-- Einfache Platzierung von Props mit Freecam-System
-- Visuelles Gizmo-System (wie CodeWalker) für präzise Positionierung
-- Rotation und Skalierung in Echtzeit
-- Automatisches Speichern und Laden von Props
-- ESX-Menu Integration
-- Sehr gute Performance (0.00ms)
-- Props sind über die ganze Map sichtbar
+Embed V2 creator with real-time preview
+Moderation & automation tools
+Server management features
+and much more
 
-## Installation
+One of the main goals is to provide a huge amount of features completely free, without forcing users into paywalls like many other bots.
 
-1. Lade das Script in deinen `resources` Ordner
-2. Füge es zu deiner `server.cfg` hinzu:
-   ```
-   ensure tr4c3r_propscreator
-   ```
-3. Stelle sicher, dass ESX installiert ist
-4. Starte den Server neu
+Additionally, the bot comes with its own web dashboard, allowing you to manage everything easily from your browser:
+👉 https://tr4c3r.de/Bot/
 
-## Verwendung
-
-### Props erstellen
-
-1. Öffne das Menu mit dem Befehl: `/propsmenu`
-2. Wähle "Props erstellen"
-3. Wähle ein Prop aus der Liste
-4. Du wirst automatisch in den Freecam-Modus versetzt
-
-### Freecam-Steuerung
-
-#### Bewegung
-- **W/A/S/D** - Prop vor/zurück/links/rechts bewegen
-- **Q/Z** - Prop hoch/runter bewegen
-
-#### Rotation
-- **Pfeiltasten** - Prop drehen (Pitch/Yaw)
-- **NUM4/NUM6** - Prop rollen (Roll)
-
-#### Größe
-- **PageUp/PageDown** - Prop größer/kleiner machen
-
-#### Kamera
-- **Maus** - Kamera drehen
-- **Mausrad** - Zoom rein/raus
-- **Shift** - Alle Bewegungen schneller ausführen
-
-#### Platzierung
-- **ENTER** - Prop platzen und speichern
-- **X** - Platzierung abbrechen
-
-### Props verwalten
-
-1. Öffne das Menu mit `/propsmenu`
-2. Wähle "Props löschen"
-3. Wähle ein Prop aus der Liste zum Löschen
-   - Oder wähle "Alle löschen" (mit doppelter Bestätigung)
-
-## Props hinzufügen
-
-Um neue Props zum Script hinzuzufügen, bearbeite die `config.lua`:
-
-```lua
-Config.Props = {
-    {
-        name = 'TR4C3R Logo',
-        model = 'tr4c3r_logo',
-        label = 'TR4C3R Logo'
-    },
-    {
-        name = 'Dein Prop',
-        model = 'dein_prop_model',
-        label = 'Anzeigename'
-    },
-}
-```
-
-**Wichtig:** Das Prop-Model muss im Spiel verfügbar sein (als Resource oder Map).
-
-## Performance
-
-Das Script ist sehr optimiert und hat eine Performance von **0.00ms**. Props werden mit optimierten LOD-Distanzen geladen, sodass sie über die ganze Map sichtbar sind, ohne Performance-Probleme zu verursachen.
-
-## Technische Details
-
-- Props werden in einer JSON-Datei gespeichert
-- Automatisches Laden beim Server-Start
-- Synchronisierung mit allen Spielern
-- Freecam-System mit präziser Steuerung
-- Visuelles Gizmo für bessere Übersicht
-
-## Support
-
-Bei Fragen oder Problemen wende dich an den TR4C3R SERVICE.
-
+Whether you're running a small community or a large server, this bot gives you the tools to build and manage your server in a professional and efficient way.
